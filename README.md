@@ -24,6 +24,8 @@ Here in this Repo there are 4 Files of .ipynb to in which two of them are sweeps
 </div>
 </kbd>
 Sweeps Parameters Used in Vanilla RNN : 
+
+
 ```python
 sweep_config = {
     'method': 'bayes',
