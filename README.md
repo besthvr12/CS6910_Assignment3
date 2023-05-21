@@ -38,17 +38,17 @@ Here in this Repo there are 4 Files of .ipynb to in which two of them are sweeps
     - In this code at last csv file will be generated for that TA's need to put some appropriate location.
       ### Sweep 1 Hyperparameters:
   
-  | Hyperparameter   | Chosen Value |
-  |------------------|--------------|
-  | embedding_size   | 128          |
-  | epochs           | 20           |
-  | hidden_size      | 512          |
-  | batch_size       | 256          |
-  | enc_num_layers   | 2            |
-  | dropout          | 0.3          |
-  | dec_num_layers   | 3            |
-  | cell_type        | LSTM         |
-  | beam_search      | 3            |
+             | Hyperparameter   | Chosen Value |
+             |------------------|--------------|
+             | embedding_size   | 512          |
+             | epochs           | 40           |
+             | hidden_size      | 512          |
+             | batch_size       | 512          |
+             | enc_num_layers   | 3            |
+             | dropout          | 0.3          |
+             | dec_num_layers   | 3            |
+             | cell_type        | LSTM         |
+             | beam_search      | 3            |
   
   <br>
     
