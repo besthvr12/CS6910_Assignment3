@@ -123,3 +123,16 @@ sweep_config = {
     
 </div>
 </kbd>
+```python
+sweep_config2 = {
+    'method': 'bayes',
+    'metric': {'goal': 'maximize', 'name': 'val_accuracy_with_attention'},
+    'parameters': {'embedding_size_input': {'values': [128, 256, 512]},
+                   'hidden_size_EncDec': {'values': [128, 256, 512]},
+                   'cell_type_value': {'values': ['LSTM','GRU','RNN']},
+                   'batch_size_value': {'values': [128,256,512]},
+                   'dropout_EncDec': {'values': [0.1, 0.2, 0.3, 0.4]},
+                   'Number_Epochs' :{'values':[10,20,30,40]},
+                   'beam_width':{'values':[1,2,3,4,5]}
+                }
+                }
