@@ -13,13 +13,13 @@ Here in this Repo there are 4 Files of .ipynb to in which two of them are sweeps
   
   - The Seq2Seqwith Sweep.ipynb has following functions and class:
   
-    - `This file has contain the code related to Question Number 1 to 3.  
-    - `In this .ipynb file I have trained vanilla RNN and then run sweeps. First I have downloaded the dataset and uploaded it on Kaggle.
-    - `Then data preprocessing by converting data into tensors.
-    - `Now i have created a seprate class for each RNN, GRU and LSTM and running sweeps on below sweep configurations.
-    - `Using beam search and beam width to find the most probables outputs.
-    - `Now to run the file in the end TA's can find the wandb import they just need to change it by giving their key and then they can get all the results mentions.
-    - `Now just run the whole code from the start.
+    - This file has contain the code related to Question Number 1 to 3.  
+    - In this .ipynb file I have trained vanilla RNN and then run sweeps. First I have downloaded the dataset and uploaded it on Kaggle.
+    - Then data preprocessing by converting data into tensors.
+    - Now i have created a seprate class for each RNN, GRU and LSTM and running sweeps on below sweep configurations.
+    - Using beam search and beam width to find the most probables outputs.
+    - Now to run the file in the end TA's can find the wandb import they just need to change it by giving their key and then they can get all the results mentions.
+    - Now just run the whole code from the start.
     
 </div>
 </kbd>
