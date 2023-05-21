@@ -36,7 +36,8 @@ Here in this Repo there are 4 Files of .ipynb to in which two of them are sweeps
     - Now i have use here LSTM only since it was giving best results so all the runs here are on LSTM only.
     - Now to run the file in the end TA's can find the wandb import they just need to change it by giving their key and then they can get all the results mentions.
     - In this code at last csv file will be generated for that TA's need to put some appropriate location.
-      ### Sweep 1 Hyperparameters:
+      ### Best Sweep 1 Hyperparameters:
+      <h4 style="font-size: 16px;">Sweep 1 Hyperparameters:</h4>
   
              | Hyperparameter   | Chosen Value |
              |------------------|--------------|
