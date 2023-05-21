@@ -50,7 +50,7 @@ Here in this Repo there are 4 Files of .ipynb to in which two of them are sweeps
              | dec_num_layers   | 3            |
              | cell_type        | LSTM         |
              | beam_search      | 3            |
-  </h4>
+       </h4>
   <br>
     
 </div>
@@ -75,4 +75,20 @@ sweep_config = {
         'beam_search':{'values':[1,2,3,4,5]}
     }
 }
-
+```
+3. Attention_With_Sweeps.ipynb
+<kbd>
+<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; font-size: 24px;">
+  
+  - The Attention_With_Sweepsipynb has following functions and class:
+  
+    - This file has contain the code related to Question Number 5(a,b,c).  
+    - In this .ipynb file I have trained Attention Model and then run sweeps. First I have downloaded the dataset and uploaded it on Kaggle.
+    - Then data preprocessing by converting data into tensors.
+    - Now i have created a seprate class for each Attention RNN, Attention GRU and Attention LSTM and running sweeps on below sweep configurations.
+    - Using beam search and beam width to find the most probables outputs.
+    - Now to run the file in the end TA's can find the wandb import they just need to change it by giving their key and then they can get all the results mentions.
+    - Now just run the whole code from the start.
+    
+</div>
+</kbd>
