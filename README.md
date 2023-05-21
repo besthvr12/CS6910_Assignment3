@@ -92,3 +92,34 @@ sweep_config = {
     
 </div>
 </kbd>
+4. best_model_attention.ipynb
+<kbd>
+<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; font-size: 24px;">
+  
+  - The best_model_vanilla_rnn has following functions and class:
+  
+    - This file has contain the code related to Question Number 5(c,d).  
+    - In this .ipynb file I have trained Attention Models and then run sweeps. First I have downloaded the dataset and uploaded it on Kaggle.
+    - Then data preprocessing by converting data into tensors.
+    - Now i have use here RNN and GRU here because it was taking large time to train in attention
+    - Now to run the file in the end TA's can just run the file by adding data appropriate position.
+    - In this code at last csv file will be generated for that TA's need to put some appropriate location.
+      ### Best Sweep 1 Hyperparameters:
+      <h4 style="font-size: 30px;">
+  
+             | Hyperparameter   | Chosen Value |
+             |------------------|--------------|
+             | embedding_size   | 512          |
+             | epochs           | 40           |
+             | hidden_size      | 512          |
+             | batch_size       | 512          |
+             | enc_num_layers   | 3            |
+             | dropout          | 0.3          |
+             | dec_num_layers   | 3            |
+             | cell_type        | LSTM         |
+             | beam_search      | 3            |
+       </h4>
+  <br>
+    
+</div>
+</kbd>
