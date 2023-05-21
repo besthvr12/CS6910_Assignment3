@@ -9,7 +9,7 @@ Here in this Repo there are 4 Files of .ipynb to in which two of them are sweeps
 
 1. Seq2Seqwith Sweep.ipynb
  <kbd>
-<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px;font-size: 14px;">
+<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px;font-size: 20px;">
   
   - The repository contains the following files:
  
