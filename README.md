@@ -1,4 +1,5 @@
 # CS6910_Assignment3
+Report Link : https://api.wandb.ai/links/harshvrma/pp9nabpf
 Here in this Repo there are 4 Files of .ipynb to in which two of them are sweeps and two of them are trained on best model. One of them is trained with attention best parameters and one of them is trained Vanilla RNN best parameters. 
 | File Name                        | Description                                                                               |
 |----------------------------------|-------------------------------------------------------------------------------------------|
