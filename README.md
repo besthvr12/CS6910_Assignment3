@@ -110,14 +110,14 @@ sweep_config = {
              | Hyperparameter   | Chosen Value |
              |------------------|--------------|
              | embedding_size   | 512          |
-             | epochs           | 40           |
+             | epochs           | 30           |
              | hidden_size      | 512          |
-             | batch_size       | 512          |
-             | enc_num_layers   | 3            |
-             | dropout          | 0.3          |
+             | batch_size       | 256          |
+             | enc_num_layers   | 1            |
+             | dropout          | 0.1          |
              | dec_num_layers   | 3            |
-             | cell_type        | LSTM         |
-             | beam_search      | 3            |
+             | cell_type        | GRU or RNN   |
+             | beam_search      | 2            |
        </h4>
   <br>
     
