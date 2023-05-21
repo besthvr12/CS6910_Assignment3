@@ -23,6 +23,38 @@ Here in this Repo there are 4 Files of .ipynb to in which two of them are sweeps
     
 </div>
 </kbd>
+ 
+2. best_model_vanilla_rnn.ipynb
+<kbd>
+<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; font-size: 24px;">
+  
+  - The best_model_vanilla_rnn has following functions and class:
+  
+    - This file has contain the code related to Question Number 4.  
+    - In this .ipynb file I have trained vanilla RNN and then run sweeps. First I have downloaded the dataset and uploaded it on Kaggle.
+    - Then data preprocessing by converting data into tensors.
+    - Now i have use here LSTM only since it was giving best results so all the runs here are on LSTM only.
+    - Now to run the file in the end TA's can find the wandb import they just need to change it by giving their key and then they can get all the results mentions.
+    - In this code at last csv file will be generated for that TA's need to put some appropriate location.
+      ### Sweep 1 Hyperparameters:
+  
+  | Hyperparameter   | Chosen Value |
+  |------------------|--------------|
+  | embedding_size   | 128          |
+  | epochs           | 20           |
+  | hidden_size      | 512          |
+  | batch_size       | 256          |
+  | enc_num_layers   | 2            |
+  | dropout          | 0.3          |
+  | dec_num_layers   | 3            |
+  | cell_type        | LSTM         |
+  | beam_search      | 3            |
+  
+  <br>
+    
+</div>
+</kbd>
+
 Sweeps Parameters Used in Vanilla RNN : 
 
 
