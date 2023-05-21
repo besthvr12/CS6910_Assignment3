@@ -11,11 +11,15 @@ Here in this Repo there are 4 Files of .ipynb to in which two of them are sweeps
 <kbd>
 <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; font-size: 24px;">
   
-  - The repository contains the following files:
-    - `sweep_1.ipynb`: A Jupyter Notebook file for sweep 1.
-    - `sweep_2.ipynb`: A Jupyter Notebook file for sweep 2.
-    - `best_model_attention.ipynb`: A Jupyter Notebook file trained on the best model with attention using the best parameters.
-    - `best_model_vanilla_rnn.ipynb`: A Jupyter Notebook file trained on the best model with Vanilla RNN using the best parameters.
+  - The Seq2Seqwith Sweep.ipynb has following functions and class:
+  
+    - `This file has contain the code related to Question Number 1 to 3.  
+    - `In this .ipynb file I have trained vanilla RNN and then run sweeps. First I have downloaded the dataset and uploaded it on Kaggle.
+    - `Then data preprocessing by converting data into tensors.
+    - `Now i have created a seprate class for each RNN, GRU and LSTM and running sweeps on below sweep configurations.
+    - `Using beam search and beam width to find the most probables outputs.
+    - `Now to run the file in the end TA's can find the wandb import they just need to change it by giving their key and then they can get all the results mentions.
+    - `Now just run the whole code from the start.
     
 </div>
 </kbd>
