@@ -123,6 +123,7 @@ sweep_config = {
     
 </div>
 </kbd>
+
 ```python
 sweep_config2 = {
     'method': 'bayes',
