@@ -8,11 +8,10 @@ Here in this Repo there are 4 Files of .ipynb to in which two of them are sweeps
 | ` 4. best_model_attention.ipynb`     | Test using best hyperparameters of Attention.                                         |
 
 1. Seq2Seqwith Sweep.ipynb
- <kbd>
-<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px;font-size: 20px;">
+<kbd>
+<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; font-size: 24px;">
   
   - The repository contains the following files:
- 
     - `sweep_1.ipynb`: A Jupyter Notebook file for sweep 1.
     - `sweep_2.ipynb`: A Jupyter Notebook file for sweep 2.
     - `best_model_attention.ipynb`: A Jupyter Notebook file trained on the best model with attention using the best parameters.
