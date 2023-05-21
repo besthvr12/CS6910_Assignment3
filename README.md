@@ -37,7 +37,7 @@ Here in this Repo there are 4 Files of .ipynb to in which two of them are sweeps
     - Now to run the file in the end TA's can find the wandb import they just need to change it by giving their key and then they can get all the results mentions.
     - In this code at last csv file will be generated for that TA's need to put some appropriate location.
       ### Best Sweep 1 Hyperparameters:
-      <h4 style="font-size: 20px;">
+      <h4 style="font-size: 30px;">
   
              | Hyperparameter   | Chosen Value |
              |------------------|--------------|
