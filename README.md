@@ -1,4 +1,6 @@
 # CS6910_Assignment3
+Here in this Repo there are 4 Files of .ipynb to in which two of them are sweeps and two of them are trained on best model. One of them is trained with attention best parameters and one of them is trained Vanilla RNN best parameters. 
+
 Sweeps Parameters Used in Vanilla RNN : 
 ```python
 sweep_config = {
@@ -16,3 +18,4 @@ sweep_config = {
         'beam_search':{'values':[1,2,3,4,5]}
     }
 }
+
